@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import './App.css';
 
 const HooksExample = () => {
     const [data, setData] = useState();
@@ -26,4 +24,4 @@ const HooksExample = () => {
     )
 }
 
-export default HooksExample;
+export default useEffect;

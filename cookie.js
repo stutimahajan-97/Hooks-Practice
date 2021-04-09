@@ -1,3 +1,4 @@
+import { bake_cookie, read_cookie, delete_cookie } from 'sfcookies';
 function setCookieAjax(){
   $.ajax({
     url: `${Web_Servlet}/setCookie`,
